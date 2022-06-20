@@ -1,3 +1,5 @@
+export type DataToRequest = "mobile" | "email" | "location" | "name" | "avatar";
+
 interface Props {
   /*gooddollar wallet link to redirect to*/
   redirectLink?: string;
@@ -12,7 +14,7 @@ interface Props {
   /* rdu: redirect url */
   rdu?: string;
   /* r: an array with extra user information fields requested (ie mobile,location,email,avatar,name) */
-  r: Array<string>;
+  r: Array<DataToRequest>;
 }
 
 export const createLoginLink = ({
