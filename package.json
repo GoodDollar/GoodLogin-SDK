@@ -1,7 +1,7 @@
 {
-  "name": "client-sdk-gooddollar",
+  "name": "@gooddollar/goodlogin-sdk",
   "version": "1.1.4",
-  "description": "Login SDK for Gooddollar wallet .",
+  "description": "Login SDK for login with Gooddollar wallet",
   "scripts": {
     "rollup": "rollup -c --context window",
     "test": "jest"
@@ -38,7 +38,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
