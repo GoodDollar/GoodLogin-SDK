@@ -41,7 +41,7 @@
     "dist",
     "src"
   ],
-  "types": "dist/index.d.ts",
+  "types": "dist/cjs/types/src/index.d.ts",
   "dependencies": {
     "@gooddollar/goodprotocol": "^1.0.17",
     "web3": "^1.7.1"
