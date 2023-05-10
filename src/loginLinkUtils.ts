@@ -40,6 +40,6 @@ export const createLoginLink = ({
 
 export const parseLoginLink = (link: string) => {
   return JSON.parse(
-    Buffer.from(decodeURIComponent(link), "base64").toString("ascii")
+    Buffer.from(decodeURIComponent(link), "base64").toString("utf8")
   );
 };
