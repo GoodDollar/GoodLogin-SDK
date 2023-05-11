@@ -1,3 +1,4 @@
+# This repo is archived please use https://github.com/GoodDollar/GoodWeb3-Mono
 # GoodDollar Client SDK
 This is the gooddollar client sdk for integrating login into gooddollar in your website
 - [Example App](https://gooddollar.netlify.app/) to test the functionality
